@@ -5,13 +5,13 @@
   <title>JSP - Hello World</title>
 </head>
 <body>
-<%
-  if (session.getAttribute("user") != null) {
-    response.sendRedirect("board/welcome.jsp");
-  } else {
-    response.sendRedirect("board/login.jsp");
-  }
-%>
+<%--<%--%>
+<%--  if (session.getAttribute("user") != null) {--%>
+<%--    response.sendRedirect("board/welcome.jsp");--%>
+<%--  } else {--%>
+<%--    response.sendRedirect("board/login.jsp");--%>
+<%--  }--%>
+<%--%>--%>
 
 
 <%--<h1><%= "Hello World!" %></h1>--%>
@@ -19,5 +19,10 @@
 <%--<a href="colorServlet">colorServlet</a>--%>
 <%--<a href="hello-servlet">Hello Servlet</a><br>--%>
 <%--<a href="/lifeCycleServlet">lifeCycleServlet</a>--%>
+
+<a href = "write.do?cmd=write">write</a>
+<a href = "list.do?cmd=list">list</a>
+
+
 </body>
 </html>

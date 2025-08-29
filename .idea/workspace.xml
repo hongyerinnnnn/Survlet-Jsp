@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd431fc5-e31c-44d4-93e1-06468326ab98" name="Changes" comment="forward">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/controller/DispatcherServlet.java" afterDir="false" />
+    <list default="true" id="cd431fc5-e31c-44d4-93e1-06468326ab98" name="Changes" comment="mvc">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/controller/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/controller/ActionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/controller/ActionForWard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/controller/ListAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/controller/WriteAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/mvclist.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/forward/process.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/forward/process.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/multi/controller/DispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/multi/controller/DispatcherServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +51,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -353,7 +360,7 @@
       <workItem from="1756167144361" duration="21170000" />
       <workItem from="1756253642224" duration="19880000" />
       <workItem from="1756343596320" duration="22803000" />
-      <workItem from="1756426360024" duration="12897000" />
+      <workItem from="1756426360024" duration="22872000" />
     </task>
     <task id="LOCAL-00001" summary="servlet-jsp">
       <option name="closed" value="true" />
@@ -395,7 +402,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756441849821</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="mvc">
+      <option name="closed" value="true" />
+      <created>1756445813665</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1756445813665</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,7 +420,8 @@
     <MESSAGE value="servlet-jsp" />
     <MESSAGE value="cookie" />
     <MESSAGE value="forward" />
-    <option name="LAST_COMMIT_MESSAGE" value="forward" />
+    <MESSAGE value="mvc" />
+    <option name="LAST_COMMIT_MESSAGE" value="mvc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
