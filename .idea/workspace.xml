@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd431fc5-e31c-44d4-93e1-06468326ab98" name="Changes" comment="mvc">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/controller/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/controller/ActionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/controller/ActionForWard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/controller/ListAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/controller/WriteAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/mvclist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/multi/controller/DispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/multi/controller/DispatcherServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="cd431fc5-e31c-44d4-93e1-06468326ab98" name="Changes" comment="mvc" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -360,7 +350,7 @@
       <workItem from="1756167144361" duration="21170000" />
       <workItem from="1756253642224" duration="19880000" />
       <workItem from="1756343596320" duration="22803000" />
-      <workItem from="1756426360024" duration="22872000" />
+      <workItem from="1756426360024" duration="22922000" />
     </task>
     <task id="LOCAL-00001" summary="servlet-jsp">
       <option name="closed" value="true" />
@@ -410,7 +400,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756445813665</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="mvc">
+      <option name="closed" value="true" />
+      <created>1756455807665</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1756455807665</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
