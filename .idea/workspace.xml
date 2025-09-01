@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd431fc5-e31c-44d4-93e1-06468326ab98" name="Changes" comment="mvc" />
+    <list default="true" id="cd431fc5-e31c-44d4-93e1-06468326ab98" name="Changes" comment="mvc">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/study/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/study/fail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/study/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/study/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/multi/controller/ActionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/multi/controller/ActionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/multi/controller/ActionForWard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/multi/controller/ActionForWard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/mvclist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/mvclist.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,8 +51,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -351,6 +360,7 @@
       <workItem from="1756253642224" duration="19880000" />
       <workItem from="1756343596320" duration="22803000" />
       <workItem from="1756426360024" duration="22922000" />
+      <workItem from="1756519212840" duration="7354000" />
     </task>
     <task id="LOCAL-00001" summary="servlet-jsp">
       <option name="closed" value="true" />
@@ -408,7 +418,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756455807665</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="mvc">
+      <option name="closed" value="true" />
+      <created>1756519231269</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1756519231269</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

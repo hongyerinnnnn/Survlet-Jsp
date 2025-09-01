@@ -11,7 +11,7 @@
 
 </head>
 <body >
-${arraylist}
+${arraylist} <%-- EL사용 --%>
 <div id="wrapper">
     <div id="header">
         <div class="topInfoWrap">
