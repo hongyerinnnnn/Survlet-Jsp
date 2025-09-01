@@ -7,6 +7,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+//mvc로 로그인
+//index에서 login을 click > mvcligin.jsp가 화면에 나옴
 
 @WebServlet("*.do")//MVC에서 대장 Controller
 public class DispatcherServlet extends HttpServlet {

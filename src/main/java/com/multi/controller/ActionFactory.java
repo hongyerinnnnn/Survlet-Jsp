@@ -16,9 +16,15 @@ public class ActionFactory {
         Action action = null;
         if(cmd.equals("write")) {
             action = new WriteAction("list.do?cmd=list",true);
-        }else if(cmd.equals("list")) {
+        }else if(cmd.equals("list")) { //*.do라는 url이면 getAction 호출
             action = new ListAction("view/mvclist.jsp",false);
+            //new ListAction을 생성할 때 path, redirect는 ActionForward로 저장해서 return
+        }else if(cmd.equals("loginui")) {
+            action = new UIAction("view/mvclogin.jsp",false);
+        }else if (cmd.equals("loginprocess")) {
+            action = new LoginProcessAction("list.do?cmd=list", true);
         }
         return action;
     }
+
 }
