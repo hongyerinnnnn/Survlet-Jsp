@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd431fc5-e31c-44d4-93e1-06468326ab98" name="Changes" comment="el-jstl">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/controller/LoginProcessAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/controller/UIAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/util/DBUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/vo/EmpVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/mvclogin.jsp" afterDir="false" />
+    <list default="true" id="cd431fc5-e31c-44d4-93e1-06468326ab98" name="Changes" comment="mvc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/multi/controller/ActionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/multi/controller/ActionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/multi/controller/DispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/multi/controller/DispatcherServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/multi/controller/ListAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/multi/controller/ListAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/mvclist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/mvclist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/multi/util/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/multi/util/DBUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -364,7 +354,7 @@
       <workItem from="1756253642224" duration="19880000" />
       <workItem from="1756343596320" duration="22803000" />
       <workItem from="1756426360024" duration="22922000" />
-      <workItem from="1756519212840" duration="25428000" />
+      <workItem from="1756519212840" duration="26109000" />
     </task>
     <task id="LOCAL-00001" summary="servlet-jsp">
       <option name="closed" value="true" />
@@ -454,7 +444,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756701076018</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="mvc">
+      <option name="closed" value="true" />
+      <created>1756715202383</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1756715202383</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,9 +462,9 @@
     <MESSAGE value="servlet-jsp" />
     <MESSAGE value="cookie" />
     <MESSAGE value="forward" />
-    <MESSAGE value="mvc" />
     <MESSAGE value="el-jstl" />
-    <option name="LAST_COMMIT_MESSAGE" value="el-jstl" />
+    <MESSAGE value="mvc" />
+    <option name="LAST_COMMIT_MESSAGE" value="mvc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
