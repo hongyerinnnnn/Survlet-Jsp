@@ -31,5 +31,18 @@
 <c:forEach var="i" begin="1" end="10">
     <c:out value="Test"/>
 </c:forEach>
+<%-- if, elseif --%>
+<c:set var="cnt" value="50"></c:set>
+<c:if test="${cnt>=50}">
+    <h2>cnt>=50</h2>
+
+</c:if>
+<c:set var = "num" value="100"/>
+<c:choose>
+    <c:when test="${num>=0 and num<=10}"><h1>num>=0 and num<=10</h1></c:when>
+    <c:when test="${num>=11 and num<=20}"><h1>num>11 and num<=20</h1></c:when>
+    <c:when test="${num>=21 and num<=30}"><h1>num>=21 and num<=30</h1></c:when>
+    <c:otherwise><h1>otherwise</h1></c:otherwise><%--else 삼항을 의미 --%>
+</c:choose>
 </body>
 </html>
