@@ -6,6 +6,7 @@ import com.multi.model.User;
 import java.util.List;
 
 public class UserServiceImp implements UserService {
+    //Upcast, Downcast, Composition(강한 포함관계), Aggregation(집합 관계)
     private UserDao userDao = new UserDaoImp();
 
     @Override
@@ -24,7 +25,7 @@ public class UserServiceImp implements UserService {
     }
 
     @Override
-    public User getUser(int id) {
+    public User getUser(int id) { //상세정보
         return userDao.getUser(id);
     }
 
