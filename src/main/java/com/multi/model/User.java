@@ -4,8 +4,7 @@ package com.multi.model;
 import lombok.*;
 
 //model, domain, vo, dto
-@Getter
-@Setter
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

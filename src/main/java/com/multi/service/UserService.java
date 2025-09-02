@@ -1,3 +1,4 @@
+
 package com.multi.service;
 import com.multi.model.User;
 import java.util.List;
@@ -9,4 +10,3 @@ public interface UserService {
     User getUser(int id);
     List<User> getAllUsers();
 }
-

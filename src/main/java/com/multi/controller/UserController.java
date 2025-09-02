@@ -1,4 +1,3 @@
-
 package com.multi.controller;
 
 import com.multi.model.User;
@@ -12,10 +11,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+/*
+ * controller가 있는 이유?(Model과 View과 분리하므로.. 인해서..나왔어요)
+ * Controller는 Mapper역활,해당 Action을 불러주면 로직을 수행하고
+ * redirect 또는 forward 방식으로 결과 페이지 또는 또다른 Action을 불러줘요..
+ * */
 @WebServlet("/user")
-public class UserController extends HttpServlet {
-    private UserService userService = new UserServiceImp();
+public class UserController extends HttpServlet {//UserController는 UserService를 가지고 있다..
+    private UserService userService=new UserServiceImp();//의존객체
 
+    // /user?action=new 입력하면
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -39,28 +44,6 @@ public class UserController extends HttpServlet {
                 break;
         }
     }
-
-    @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-        String action = request.getParameter("action");
-        if (action == null) {
-            action = "list";
-        }
-
-        switch (action) {
-            case "insert":
-                insertUser(request, response);
-                break;
-            case "update":
-                updateUser(request, response);
-                break;
-            default:
-                listUsers(request, response);
-                break;
-        }
-    }
-
     private void listUsers(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         request.setAttribute("userList", userService.getAllUsers());
@@ -85,7 +68,7 @@ public class UserController extends HttpServlet {
         String name = request.getParameter("name");
         int age = Integer.parseInt(request.getParameter("age"));
         User newUser = new User(0, name, age); // 0은 임시 ID 값
-        userService.addUser(newUser);
+        userService.addUser(newUser);//insert되는 부분입니다
         response.sendRedirect("user?action=list");
     }
 
@@ -105,5 +88,26 @@ public class UserController extends HttpServlet {
         userService.deleteUser(id);
         response.sendRedirect("user?action=list");
     }
-}
 
+
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        String action = request.getParameter("action");
+        if (action == null) {
+            action = "list";
+        }
+
+        switch (action) {
+            case "insert":
+                insertUser(request, response);
+                break;
+            case "update":
+                updateUser(request, response);
+                break;
+            default:
+                listUsers(request, response);
+                break;
+        }
+    }
+}

@@ -1,22 +1,22 @@
-
 package com.multi.dao;
 import com.multi.model.User;
 import com.multi.util.DBUtil;
+import com.multi.util.DBUtil2;
+
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-//refactoring 결과는 그대로 유지하고 유지보수성, 확장성은 개선하는 개념
-
+//refactoring 결과는 그대로 유지하고 유지보수성,확장성 이런것들은 개선하는 개념
 public class UserDaoImp implements UserDao {
 
     @Override
     public void addUser(User user) {
         String sql = "INSERT INTO users (name, age) VALUES (?, ?)";
-        try (Connection conn = DBUtil.getConnection();
-             PreparedStatement stmt = conn.prepareStatement(sql)) {
+        try (Connection conn = DBUtil2.getConnection();//연결객체
+             PreparedStatement stmt = conn.prepareStatement(sql)) {// 운반하고 실행하는 객체
             stmt.setString(1, user.getName());
             stmt.setInt(2, user.getAge());
-            stmt.executeUpdate();
+            stmt.executeUpdate();//실제 db에서 dml작업이 수행됩니다..
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -25,7 +25,7 @@ public class UserDaoImp implements UserDao {
     @Override
     public void updateUser(User user) {
         String sql = "UPDATE users SET name = ?, age = ? WHERE id = ?";
-        try (Connection conn = DBUtil.getConnection();
+        try (Connection conn = DBUtil2.getConnection();
              PreparedStatement stmt = conn.prepareStatement(sql)) {
             stmt.setString(1, user.getName());
             stmt.setInt(2, user.getAge());
@@ -39,7 +39,7 @@ public class UserDaoImp implements UserDao {
     @Override
     public void deleteUser(int id) {
         String sql = "DELETE FROM users WHERE id = ?";
-        try (Connection conn = DBUtil.getConnection();
+        try (Connection conn = DBUtil2.getConnection();
              PreparedStatement stmt = conn.prepareStatement(sql)) {
             stmt.setInt(1, id);
             stmt.executeUpdate();
@@ -52,7 +52,7 @@ public class UserDaoImp implements UserDao {
     public User getUser(int id) {
         String sql = "SELECT * FROM users WHERE id = ?";
         User user = null;
-        try (Connection conn = DBUtil.getConnection();
+        try (Connection conn = DBUtil2.getConnection();
              PreparedStatement stmt = conn.prepareStatement(sql)) {
             stmt.setInt(1, id);
             ResultSet rs = stmt.executeQuery();
@@ -72,7 +72,7 @@ public class UserDaoImp implements UserDao {
     public List<User> getAllUsers() {
         String sql = "SELECT * FROM users";
         List<User> users = new ArrayList<>();
-        try (Connection conn = DBUtil.getConnection();
+        try (Connection conn = DBUtil2.getConnection();
              PreparedStatement stmt = conn.prepareStatement(sql);
              ResultSet rs = stmt.executeQuery()) {
             while (rs.next()) {
@@ -88,4 +88,3 @@ public class UserDaoImp implements UserDao {
         return users;
     }
 }
-
