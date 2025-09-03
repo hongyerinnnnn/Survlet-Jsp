@@ -1,16 +1,37 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: popla
-  Date: 2025-09-03
-  Time: 오후 2:07
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Title</title>
-</head>
-<body>
+<%@ page contentType="text/html; charset=UTF-8" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<c:set var="pageTitle" value="게시판 목록"/>
+<jsp:include page="/WEB-INF/jspf/header.jspf"/>
 
-</body>
-</html>
+<h3 class="mb-3">게시판 목록</h3>
+${boards}
+<table class="table table-striped align-middle">
+    <thead>
+    <tr>
+        <th style="width:80px">번호</th>
+        <th>제목</th>
+        <th style="width:200px">작성일</th>
+        <th style="width:160px">관리</th>
+    </tr>
+    </thead>
+    <tbody>
+    <c:forEach var="b" items="${boards}">
+        <tr>
+            <td>${b.id}</td>
+            <td>
+                <a class="link-dark text-decoration-none" href="<c:url value='/board'><c:param name='action' value='view'/><c:param name='id' value='${b.id}'/></c:url>">
+                    <c:out value="${b.title}"/>
+                </a>
+            </td>
+            <td>${b.createdAt}</td>
+            <td>
+                <a class="btn btn-sm btn-outline-secondary" href="<c:url value='/board'><c:param name='action' value='view'/><c:param name='id' value='${b.id}'/></c:url>">보기</a>
+                <a class="btn btn-sm btn-outline-danger" href="<c:url value='/board'><c:param name='action' value='delete'/><c:param name='id' value='${b.id}'/></c:url>"
+                   onclick="return confirm('삭제할까요?');">삭제</a>
+            </td>
+        </tr>
+    </c:forEach>
+    </tbody>
+</table>
+
+<jsp:include page="/WEB-INF/jspf/footer.jspf"/>

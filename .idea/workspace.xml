@@ -4,21 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd431fc5-e31c-44d4-93e1-06468326ab98" name="Changes" comment="mvc">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/config/MyBatisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/controller/BoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/dao/BoardDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/dto/BoardDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/BoardMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/footer.jspf.jspx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/header.jspf.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/board/detail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/board/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/board/write.jsp" afterDir="false" />
+    <list default="true" id="cd431fc5-e31c-44d4-93e1-06468326ab98" name="Changes" comment="mybatis">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/footer.jspf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/header.jspf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/multi/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/multi/controller/BoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/multi/dao/BoardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/multi/dao/BoardDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/BoardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/BoardMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/footer.jspf.jspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/header.jspf.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/board/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/board/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/board/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/board/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/board/write.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/board/write.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +56,8 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
-        <option value="Jspx File" />
         <option value="Jsp File" />
+        <option value="Jspx File" />
       </list>
     </option>
   </component>
@@ -373,7 +371,7 @@
       <workItem from="1756426360024" duration="22922000" />
       <workItem from="1756519212840" duration="26767000" />
       <workItem from="1756771905662" duration="22171000" />
-      <workItem from="1756858342122" duration="4329000" />
+      <workItem from="1756858342122" duration="11192000" />
     </task>
     <task id="LOCAL-00001" summary="servlet-jsp">
       <option name="closed" value="true" />
@@ -519,7 +517,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756866816699</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="mybatis">
+      <option name="closed" value="true" />
+      <created>1756877625365</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1756877625365</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,7 +537,8 @@
     <MESSAGE value="forward" />
     <MESSAGE value="el-jstl" />
     <MESSAGE value="mvc" />
-    <option name="LAST_COMMIT_MESSAGE" value="mvc" />
+    <MESSAGE value="mybatis" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatis" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
