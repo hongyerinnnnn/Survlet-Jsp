@@ -24,4 +24,3 @@
 
 
 <jsp:include page="/WEB-INF/jspf/footer.jspf"/>
-

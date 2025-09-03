@@ -1,10 +1,10 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <c:set var="pageTitle" value="게시판 목록"/>
-<jsp:include page="/WEB-INF/jspf/header.jspf"/>
-
+<%--<%@ include  file="/WEB-INF/jspf/header.jsp">--%>
+<%@include file="/WEB-INF/jspf/header.jspf"%>
 <h3 class="mb-3">게시판 목록</h3>
-${boards}
+
 <table class="table table-striped align-middle">
     <thead>
     <tr>

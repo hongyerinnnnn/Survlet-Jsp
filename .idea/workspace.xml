@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd431fc5-e31c-44d4-93e1-06468326ab98" name="Changes" comment="mybatis">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/footer.jspf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/header.jspf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/multi/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/multi/controller/BoardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/multi/dao/BoardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/multi/dao/BoardDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/BoardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/BoardMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/footer.jspf.jspx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/header.jspf.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/header.jspf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/header.jspf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/board/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/board/detail.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/board/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/board/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/board/write.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/board/write.jsp" afterDir="false" />
@@ -371,7 +365,7 @@
       <workItem from="1756426360024" duration="22922000" />
       <workItem from="1756519212840" duration="26767000" />
       <workItem from="1756771905662" duration="22171000" />
-      <workItem from="1756858342122" duration="11192000" />
+      <workItem from="1756858342122" duration="11952000" />
     </task>
     <task id="LOCAL-00001" summary="servlet-jsp">
       <option name="closed" value="true" />
@@ -525,7 +519,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756877625365</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="mybatis">
+      <option name="closed" value="true" />
+      <created>1756884478990</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1756884478990</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

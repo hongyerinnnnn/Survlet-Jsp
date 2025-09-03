@@ -64,4 +64,3 @@ public class BoardController extends HttpServlet {
         resp.sendRedirect(req.getContextPath() + "/board?action=list");
     }
 }
-
