@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd431fc5-e31c-44d4-93e1-06468326ab98" name="Changes" comment="mybatis">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/controller/ElJstlController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/eljstl/fowardJstl.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/eljstl/redirectJstl.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/multi/config/MyBatisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/multi/config/MyBatisUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +47,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Jspx File" />
         <option value="Class" />
         <option value="Jsp File" />
-        <option value="Jspx File" />
       </list>
     </option>
   </component>
@@ -81,30 +83,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build dynamic-web.executor": "Run",
-    "Gradle.dynamic-web.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Tomcat Server.Tomcat 9.0.1081.executor": "Run",
-    "Tomcat Server.index.jsp.executor": "Debug",
-    "Tomcat Server.login.jsp.executor": "Run",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/JavaWork/dynamic-web/src/main/webapp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build dynamic-web.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.dynamic-web.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 9.0.1081.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.index.jsp.executor&quot;: &quot;Debug&quot;,
+    &quot;Tomcat Server.login.jsp.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/JavaWork/dynamic-web/src/main/webapp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\JavaWork\dynamic-web\src\main\webapp" />
@@ -361,7 +363,8 @@
       <workItem from="1756426360024" duration="22922000" />
       <workItem from="1756519212840" duration="26767000" />
       <workItem from="1756771905662" duration="22171000" />
-      <workItem from="1756858342122" duration="12607000" />
+      <workItem from="1756858342122" duration="14454000" />
+      <workItem from="1756944718146" duration="4763000" />
     </task>
     <task id="LOCAL-00001" summary="servlet-jsp">
       <option name="closed" value="true" />
@@ -531,7 +534,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756885142864</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="mybatis">
+      <option name="closed" value="true" />
+      <created>1756885949745</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1756885949745</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
