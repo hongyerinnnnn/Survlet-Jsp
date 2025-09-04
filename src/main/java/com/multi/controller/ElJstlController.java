@@ -1,5 +1,9 @@
 package com.multi.controller;
 
+import com.multi.dao.BoardDAO;
+import com.multi.dto.BoardDTO;
+import com.multi.vo.UserVO;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -11,10 +15,30 @@ import java.io.IOException;
 public class ElJstlController extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.setCharacterEncoding("utf-8");
+        req.setCharacterEncoding("UTF-8");
         String action = req.getParameter("action");
-        if(action !=null && action.equals("jstlLesson1")){//
-            System.out.println(action);
+        BoardDAO boardDAO = new BoardDAO();
+        if(action!=null&& action.equals("redirect")) {//
+            req.setAttribute("list",  boardDAO.getAllBoards());
+            resp.sendRedirect(req.getContextPath() + "/eljstl/redirectJstl.jsp");
+        }else if(action!=null&& action.equals("forward")) {
+            req.setAttribute("list", boardDAO.getAllBoards());
+            req.getRequestDispatcher("eljstl/forwardJstl.jsp").forward(req, resp);
+
+        }else if(action!=null&& action.equals("info")) {
+            req.setAttribute("info", new BoardDTO(1, "hi",
+                    "hello", null, null));
+            req.getRequestDispatcher("eljstl/info.jsp").forward(req, resp);
+
+        }else if (action !=null && action.equals("user")){
+            req.setAttribute("user", new UserVO(null, 20));
+            req.getRequestDispatcher("eljstl/elJstl2.jsp").forward(req, resp);
+        }else if (action !=null && action.equals("calc")) {
+            resp.sendRedirect(req.getContextPath() + "/eljstl/elJstl3.jsp");
+        }else if (action !=null && action.equals("function")) {
+            req.getRequestDispatcher("eljstl/elJstl4.jsp").forward(req, resp);
+
         }
+
     }
 }
