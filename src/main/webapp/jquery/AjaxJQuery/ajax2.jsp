@@ -25,7 +25,7 @@
         <thead id="thead">
 
         </thead>
-        <tbody>
+        <tbody id="tbody">
 
         </tbody>
     </table>
@@ -46,17 +46,26 @@
                 //console.log(data.no+" "+data.name+" "+data.age);
                 //console.log(data["no"]+" "+data["name"]+" "+data["age"]);
                $("#thead").html("");
+               $("#thead").append("<tr></tr>");
                for(var key in data){
                    for(var j in data[key]){
                        console.log(j);
+                       $("#thead tr").append("<td>"+j+"</td>");
+
                    }
+                   break;
                }
-                // $.each(data, function(key, val) {
-                //     console.log(key+ " " + val);
-                //     for(var i in val){
-                //         console.log(val[i]);
-                //     }
-                // });
+
+              //  $("#thead").append("</tr>");
+                $.each(data, function(key, val) {
+                   // console.log(key+ " " + val);
+                    $("#tbody").append("<tr>");
+                    for(var i in val){
+                       // console.log(val[i]);
+                        $("#tbody").append("<td>"+ val[i]+"</td>");
+                    }
+                    $("#tbody").append("</tr>");
+                });
 
             },
             error: function (data) {//Ajax통신이 Fail

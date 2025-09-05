@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd431fc5-e31c-44d4-93e1-06468326ab98" name="Changes" comment="ajax">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/AjaxJQuery/ajax2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/AjaxJQuery/userInfo.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jquery/AjaxJQuery/ajax2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jquery/AjaxJQuery/ajax2.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -364,7 +363,7 @@
       <workItem from="1756771905662" duration="22171000" />
       <workItem from="1756858342122" duration="14454000" />
       <workItem from="1756944718146" duration="16924000" />
-      <workItem from="1757030998526" duration="10856000" />
+      <workItem from="1757030998526" duration="13928000" />
     </task>
     <task id="LOCAL-00001" summary="servlet-jsp">
       <option name="closed" value="true" />
@@ -566,7 +565,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757046084556</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="ajax">
+      <option name="closed" value="true" />
+      <created>1757051515344</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1757051515344</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
