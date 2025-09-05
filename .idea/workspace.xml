@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd431fc5-e31c-44d4-93e1-06468326ab98" name="Changes" comment="el-jstl">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/AjaxJQuery/ajax1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/AjaxJQuery/ping.jsp" afterDir="false" />
+    <list default="true" id="cd431fc5-e31c-44d4-93e1-06468326ab98" name="Changes" comment="ajax">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/AjaxJQuery/ajax2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/AjaxJQuery/userInfo.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -364,7 +364,7 @@
       <workItem from="1756771905662" duration="22171000" />
       <workItem from="1756858342122" duration="14454000" />
       <workItem from="1756944718146" duration="16924000" />
-      <workItem from="1757030998526" duration="5501000" />
+      <workItem from="1757030998526" duration="10856000" />
     </task>
     <task id="LOCAL-00001" summary="servlet-jsp">
       <option name="closed" value="true" />
@@ -558,7 +558,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756973802269</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="ajax">
+      <option name="closed" value="true" />
+      <created>1757046084556</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1757046084556</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -571,7 +579,8 @@
     <MESSAGE value="mvc" />
     <MESSAGE value="mybatis" />
     <MESSAGE value="el-jstl" />
-    <option name="LAST_COMMIT_MESSAGE" value="el-jstl" />
+    <MESSAGE value="ajax" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajax" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -600,6 +609,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/multi/controller/ActionFactory.java</url>
           <line>11</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/jquery/AjaxJQuery/userInfo.jsp</url>
+          <line>4</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
