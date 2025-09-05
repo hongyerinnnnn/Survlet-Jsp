@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd431fc5-e31c-44d4-93e1-06468326ab98" name="Changes" comment="el-jstl">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/vo/UserVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/eljstl/elJstl2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/eljstl/elJstl3.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/eljstl/elJstl4.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/eljstl/elJstlParam.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/eljstl/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/AjaxJQuery/ajax1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/AjaxJQuery/ping.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/multi/controller/ElJstlController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/multi/controller/ElJstlController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/multi/dto/BoardDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/multi/dto/BoardDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/eljstl/fowardJstl.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/eljstl/forwardJstl.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/eljstl/redirectJstl.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/eljstl/redirectJstl.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -371,7 +363,8 @@
       <workItem from="1756519212840" duration="26767000" />
       <workItem from="1756771905662" duration="22171000" />
       <workItem from="1756858342122" duration="14454000" />
-      <workItem from="1756944718146" duration="15663000" />
+      <workItem from="1756944718146" duration="16924000" />
+      <workItem from="1757030998526" duration="5501000" />
     </task>
     <task id="LOCAL-00001" summary="servlet-jsp">
       <option name="closed" value="true" />
@@ -557,7 +550,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756960517162</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="el-jstl">
+      <option name="closed" value="true" />
+      <created>1756973802269</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1756973802269</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
